@@ -72,6 +72,7 @@ Encrypted model updates
 Privacy-preserving federated training
 
 🏗 System Architecture
+```
                  ┌───────────────────────────────┐
                  │          Client Devices       │
                  │   (Hospitals / IoT Systems)  │
@@ -97,6 +98,7 @@ Privacy-preserving federated training
                                  │
                                  ▼
                  Clients Receive Improved Model
+```
 
 🔄 Workflow
 Collect local multivariate time-series data.
@@ -107,6 +109,7 @@ The server performs federated aggregation.
 The updated global model is distributed to clients.
 
 📂 Project Structure
+```
 Federated-TimeSeries-Forecasting
 │
 ├── client/
@@ -135,6 +138,7 @@ Federated-TimeSeries-Forecasting
 │
 ├── requirements.txt
 └── README.md
+```
 
 ⚙ Installation
 Clone the repository
