@@ -6,24 +6,27 @@ The system enables multiple organizations or devices to collaboratively train pr
 
 
 🎯 Project Objective
+```
 The primary objective of this research is to develop a secure and intelligent forecasting system capable of:
 Preserving data privacy in distributed environments using federated learning.
 Handling heterogeneous client data distributions.
 Detecting and adapting to concept drift in time-series data.
 Providing interpretable predictions using explainable AI techniques.
 The framework enables organizations to collaborate in analytics without sharing sensitive datasets.
-
+```
 
 🌍 Real-World Applications
+```
 This framework can be applied across multiple domains where sensitive time-series data is continuously generated:
 🏥 Healthcare — Patient monitoring and risk prediction.
 ⚡ Energy Systems — Smart grid demand forecasting.
 🏭 Industrial IoT — Predictive maintenance.
 🚦 Smart Cities — Traffic flow prediction.
 💰 Finance — Market trend forecasting.
-
+```
 
 ⚠️ Problem Statement
+```
 Modern machine learning systems struggle with distributed and privacy-sensitive time-series data.
 Key challenges include:
 Privacy regulations preventing centralized data sharing.
@@ -31,18 +34,20 @@ Non-IID data distributions across organizations.
 Lack of explainability in prediction models.
 Performance degradation due to concept drift.
 Existing solutions fail to simultaneously address privacy, personalization, and interpretability.
-
+```
 
 💡 Proposed Approach
+```
 The framework combines multiple advanced techniques:
 Federated Learning — Decentralized collaborative model training.
 Personalized Models — Client-specific model adaptation.
 Concept Drift Detection — Adapts to changing temporal patterns.
 Explainable AI — Provides interpretable forecasting insights.
 Raw data remains on client devices, while only model updates are shared with the central server.
-
+```
 
 🛠 Technology Stack
+```
 Frontend
 HTML
 CSS
@@ -70,6 +75,7 @@ HTTP / HTTPS
 Security
 Encrypted model updates
 Privacy-preserving federated training
+```
 
 🏗 System Architecture
 ```
@@ -101,12 +107,14 @@ Privacy-preserving federated training
 ```
 
 🔄 Workflow
+```
 Collect local multivariate time-series data.
 Perform local analytics and feature extraction.
 Train personalized forecasting models.
 Send encrypted model updates to the server.
 The server performs federated aggregation.
 The updated global model is distributed to clients.
+```
 
 📂 Project Structure
 ```
