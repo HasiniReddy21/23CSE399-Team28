@@ -142,15 +142,21 @@ Federated-TimeSeries-Forecasting
 
 ⚙ Installation
 Clone the repository
+```
 git clone https://github.com/yourusername/federated-timeseries-forecasting.git
 cd federated-timeseries-forecasting
+```
 
 Install dependencies
+```
 pip install -r requirements.txt
+```
 
 Run the system
+```
 python server/server.py
 python client/client.py
+```
 
 📌 Future Work
 Edge-based federated learning.
